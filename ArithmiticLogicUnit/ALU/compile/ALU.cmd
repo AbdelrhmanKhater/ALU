@@ -1,0 +1,1 @@
+-w -s "F:\VHDL\ArithmiticLogicUnit\library.cfg"  -j "F:\VHDL\ArithmiticLogicUnit\ALU\projlib.cfg"  -d "F:\VHDL\ArithmiticLogicUnit\ALU\compile"   -work ALU  -dbg -e 100 -2002 "F:\\VHDL\\ArithmiticLogicUnit\\ALU\\src\\alu.vhd"  "F:\\VHDL\\ArithmiticLogicUnit\\ALU\\src\\mypackage.vhd"  "F:\\VHDL\\ArithmiticLogicUnit\\ALU\\src\\testbench\\alu_ent_tb.vhd" 

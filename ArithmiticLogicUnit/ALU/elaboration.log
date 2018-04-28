@@ -1,0 +1,21 @@
+elbread.dll ver. 1.0.5.375 Sat Apr 28 18:57:45 2018
+
+
+---------------------------------------
+Entity      | Architecture    | Library
+---------------------------------------
+alu_ent_tb  | tb_architecture | alu
+alu_ent     | alu_arch        | alu
+---------------------------------------
+
+-----------------------------
+Package             | Library
+-----------------------------
+standard            | std
+textio              | std
+std_logic_1164      | ieee
+mypackage           | alu
+std_logic_arith     | ieee
+numeric_std         | ieee
+std_logic_unsigned  | ieee
+-----------------------------

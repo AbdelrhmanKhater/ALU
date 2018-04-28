@@ -1,0 +1,43 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=1
+Current Config=compile
+
+[Configurations]
+compile=ALU
+
+[Library]
+ALU=.\ALU.LIB
+
+[$LibMap$]
+ALU=.
+Active_lib=
+
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+
+[Groups]
+TestBench=1
+
+[Files]
+/alu.vhd=-1
+/mypackage.vhd=-1
+TestBench/alu_ent_TB.vhd=-1
+TestBench/alu_ent_TB_runtest.do=-1
+
+[Files.Data]
+.\src\alu.vhd=VHDL Source Code
+.\src\mypackage.vhd=VHDL Source Code
+.\src\TestBench\alu_ent_TB.vhd=VHDL Test Bench
+.\src\TestBench\alu_ent_TB_runtest.do=Macro
+
+[HierarchyViewer]
+SortInfo=u
+HierarchyInformation=alu_ent_tb|tb_architecture|0 
+ShowHide=ShowTopLevel
+Selected=

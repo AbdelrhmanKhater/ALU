@@ -1,0 +1,3 @@
+.\src\alu.vhd
+.\src\mypackage.vhd
+.\src\TestBench\alu_ent_TB.vhd

@@ -1,0 +1,14 @@
+[Files List]
+f:\sys\Vlib\Std/src/standard.vhd=S
+f:\sys\Vlib\Std/src/textio.vhd=S
+f:\sys\Vlib\IEEE/src/std_logic_1164.vhdl=S
+f:\sys\Vlib\IEEE/src/std_logic_1164-body.vhdl=S
+F:\VHDL\ArithmiticLogicUnit\ALU/src/mypackage.vhd=S
+f:\sys\Vlib\IEEE/src/arith_p.vhd=S
+f:\sys\Vlib\IEEE/src/arith_b.vhd=S
+f:\sys\Vlib\IEEE/src/numeric_std.vhdl=S
+f:\sys\Vlib\IEEE/src/numeric_std-body.vhdl=S
+f:\sys\Vlib\IEEE/src/unsigned_p.vhd=S
+f:\sys\Vlib\IEEE/src/unsigned_b.vhd=S
+F:\VHDL\ArithmiticLogicUnit\ALU/src/alu.vhd=S
+F:\VHDL\ArithmiticLogicUnit\ALU/src/TestBench/alu_ent_TB.vhd=S
