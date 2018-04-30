@@ -1,0 +1,132 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+acom -work ALU -2002  $DSN/src/TestBench/alu_ent_TB.vhd
+# Compile...
+# File: F:\VHDL\ArithmiticLogicUnit\ALU\src\TestBench\alu_ent_TB.vhd
+# Compile Entity "alu_ent_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "alu_ent_tb"
+# Compile Configuration "TESTBENCH_FOR_alu_ent"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -advdataflow  alu_ent_tb tb_architecture
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1653 kB (elbread=1023 elab2=359 kernel=270 sdf=0)
+# KERNEL: ASDB file was created in location F:\VHDL\ArithmiticLogicUnit\ALU\src\wave.asdb
+#  10:16 AM, Monday, April 30, 2018
+#  Simulation has been initialized
+#  Selected Top-Level: alu_ent_tb (tb_architecture)
+# 4 signal(s) traced.
+run 100 ns
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /UUT,  Process: line__47.
+# KERNEL: stopped at time: 100 ns
+acom -work ALU -2002  $DSN/src/alu.vhd
+# Compile...
+# File: F:\VHDL\ArithmiticLogicUnit\ALU\src\alu.vhd
+# Compile Entity "alu_ent"
+# Compile Architecture "alu_arch" of Entity "alu_ent"
+# Error: COMP96_0019: alu.vhd : (45, 2): Keyword "begin" expected.
+# Error: COMP96_0015: alu.vhd : (46, 10): ';' expected.
+# Error: COMP96_0015: alu.vhd : (47, 10): ';' expected.
+# Error: COMP96_0517: alu.vhd : (47, 27): Unknown syntax error.
+# Error: COMP96_0019: alu.vhd : (48, 2): Keyword "end" expected.
+# Error: COMP96_0016: alu.vhd : (49, 4): Design unit declaration expected.
+# Compile failure 6 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -work ALU -2002  $DSN/src/alu.vhd
+# Compile...
+# File: F:\VHDL\ArithmiticLogicUnit\ALU\src\alu.vhd
+# Compile Entity "alu_ent"
+# Compile Architecture "alu_arch" of Entity "alu_ent"
+# Error: COMP96_0019: alu.vhd : (45, 2): Keyword "begin" expected.
+# Error: COMP96_0015: alu.vhd : (46, 10): ';' expected.
+# Error: COMP96_0015: alu.vhd : (47, 10): ';' expected.
+# Error: COMP96_0517: alu.vhd : (47, 27): Unknown syntax error.
+# Error: COMP96_0019: alu.vhd : (48, 2): Keyword "end" expected.
+# Error: COMP96_0016: alu.vhd : (49, 4): Design unit declaration expected.
+# Compile failure 6 Errors 0 Warnings  Analysis time :  62.0 [ms]
+acom -work ALU -2002  $DSN/src/TestBench/alu_ent_TB.vhd
+# Compile...
+# File: F:\VHDL\ArithmiticLogicUnit\ALU\src\TestBench\alu_ent_TB.vhd
+# Compile Entity "alu_ent_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "alu_ent_tb"
+# Compile Configuration "TESTBENCH_FOR_alu_ent"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -work ALU -2002  $DSN/src/alu.vhd
+# Compile...
+# File: F:\VHDL\ArithmiticLogicUnit\ALU\src\alu.vhd
+# Compile Entity "alu_ent"
+# Compile Architecture "alu_arch" of Entity "alu_ent"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+acom -work ALU -2002  $DSN/src/TestBench/alu_ent_TB.vhd
+# Compile...
+# File: F:\VHDL\ArithmiticLogicUnit\ALU\src\TestBench\alu_ent_TB.vhd
+# Compile Entity "alu_ent_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "alu_ent_tb"
+# Compile Configuration "TESTBENCH_FOR_alu_ent"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+#  Simulation has been stopped
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -advdataflow  alu_ent_tb tb_architecture
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1653 kB (elbread=1023 elab2=359 kernel=270 sdf=0)
+# KERNEL: ASDB file was created in location F:\VHDL\ArithmiticLogicUnit\ALU\src\wave.asdb
+#  10:21 AM, Monday, April 30, 2018
+#  Simulation has been initialized
+#  Selected Top-Level: alu_ent_tb (tb_architecture)
+run 100 ns
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /UUT,  Process: line__44.
+# KERNEL: stopped at time: 100 ns
+# 4 signal(s) traced.
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+endsim
+#  Simulation has been stopped
+asim -advdataflow  alu_ent_tb tb_architecture
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1653 kB (elbread=1023 elab2=359 kernel=270 sdf=0)
+# KERNEL: ASDB file was created in location F:\VHDL\ArithmiticLogicUnit\ALU\src\wave.asdb
+#  10:21 AM, Monday, April 30, 2018
+#  Simulation has been initialized
+#  Selected Top-Level: alu_ent_tb (tb_architecture)
+# 4 signal(s) traced.
+run 100 ns
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /UUT,  Process: line__44.
+# KERNEL: stopped at time: 100 ns
+#  Simulation has been stopped

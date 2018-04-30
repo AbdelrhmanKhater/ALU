@@ -1,6 +1,6 @@
-62
+89
 ~E 1 "./src/TestBench/alu_ent_TB.vhd" 10 alu_ent_tb
-~A 1 "./src/testbench/alu_ent_tb.vhd" 13 tb_architecture
+~A 1 "./src/TestBench/alu_ent_TB.vhd" 13 tb_architecture
 ~E 1 "./src/alu.vhd" 29 alu_ent
 ~A 1 "./src/alu.vhd" 40 alu_arch
-~C 1 "./src/testbench/alu_ent_tb.vhd" 61 testbench_for_alu_ent
+~C 1 "./src/TestBench/alu_ent_TB.vhd" 61 testbench_for_alu_ent

@@ -24,6 +24,12 @@ FAMILY=
 [Groups]
 TestBench=1
 
+[HierarchyViewer]
+SortInfo=u
+HierarchyInformation=alu_ent_tb|tb_architecture|0 
+ShowHide=ShowTopLevel
+Selected=
+
 [Files]
 /alu.vhd=-1
 /mypackage.vhd=-1
@@ -36,8 +42,3 @@ TestBench/alu_ent_TB_runtest.do=-1
 .\src\TestBench\alu_ent_TB.vhd=VHDL Test Bench
 .\src\TestBench\alu_ent_TB_runtest.do=Macro
 
-[HierarchyViewer]
-SortInfo=u
-HierarchyInformation=alu_ent_tb|tb_architecture|0 
-ShowHide=ShowTopLevel
-Selected=

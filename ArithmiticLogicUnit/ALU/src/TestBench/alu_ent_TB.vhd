@@ -43,7 +43,7 @@ begin
 	-- Add your stimulus here ...
 	process
 	begin
-		sel <= ADD;
+		sel <= ROR_O;
 		a <= "00000100";
 		b <= "00000010";  
 		wait for 100ns;

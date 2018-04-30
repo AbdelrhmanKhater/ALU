@@ -38,36 +38,36 @@ end alu_ent;
 --}} End of automatically maintained section
 
 architecture alu_arch of alu_ent is	
-signal tmp1:bit_vector(7 downto 0);
-signal tmp2:integer;
-signal res:bit_vector(7 downto 0);
 begin
 
 	-- enter your statements here --	   
-	process(sel, a, b)
+	process(sel, a, b)	
+	variable tmp1:bit_vector(7 downto 0);
+	variable tmp2:integer;
+	variable res:bit_vector(7 downto 0);
 	begin 
 	 	case sel is
 					when NOP =>
 						z <= a;
 					when SHL =>				
-					tmp1 <= to_bitvector(a);
-					tmp2 <= to_integer(signed(b));
-					res <= tmp1 sll tmp2;
+					tmp1 := to_bitvector(a);
+					tmp2 := to_integer(signed(b));
+					res := tmp1 sll tmp2;
 					z <= to_StdLogicVector(res);
 					when SHR =>
-					tmp1 <= to_bitvector(a);
-					tmp2 <= to_integer(signed(b));
-					res <= tmp1 srl tmp2;
+					tmp1 := to_bitvector(a);
+					tmp2 := to_integer(signed(b));
+					res := tmp1 srl tmp2;
 					z <= to_StdLogicVector(res);
 					when ROL_O =>
-					tmp1 <= to_bitvector(a);
-					tmp2 <= to_integer(signed(b));			
-					res <= tmp1 rol tmp2;
+					tmp1 := to_bitvector(a);
+					tmp2 := to_integer(signed(b));			
+					res := tmp1 rol tmp2;
 					z <= to_StdLogicVector(res);
 					when ROR_O =>
-					tmp1 <= to_bitvector(a);
-					tmp2 <= to_integer(signed(b));
-					res <= tmp1 ror tmp2;
+					tmp1 := to_bitvector(a);
+					tmp2 := to_integer(signed(b));
+					res := tmp1 ror tmp2;
 					z <= to_StdLogicVector(res);
 					when ADD =>
 						z <= a + b;

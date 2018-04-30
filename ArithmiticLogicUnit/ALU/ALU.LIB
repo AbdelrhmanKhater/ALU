@@ -1,21 +1,21 @@
-timestamp=1524934626578
+timestamp=1525076459579
 
 [alu_ent]
-A/alu_arch=21|./src/alu.vhd|40|1*16258
-B/alu_arch=3*7547
+A/alu_arch=21|./src/alu.vhd|40|1*27452
+B/alu_arch=3*15094
 I=0*3158
-I/alu_arch=0*10946
+I/alu_arch=0*13409
 M=11|0|v147|1524874697536|./src/alu.vhd|0*2747*0x2b46734742d71268abee7d20770ddbf4132cc718|0*3090*0x7bd7e13dc0415552f89596087806a8cf
-M/alu_arch=21|0|v147|1524934626445|./src/alu.vhd|0*9938*0x4210c05f10434342f91b5e837f450031049a7048|0*10866*0x7bd7e13dc0415552f89596087806a8cf
+M/alu_arch=21|0|v147|1525076452839|./src/alu.vhd|0*12401*0x6ec0599e322fb0e28a3f59faa613c88f1e3a7c00|0*13329*0x7bd7e13dc0415552f89596087806a8cf
 R=./src/alu.vhd|29
 
 [alu_ent_tb]
-A/tb_architecture=A/TB_ARCHITECTURE 21|./src/testbench/alu_ent_tb.vhd|13|1*18659
-B/tb_architecture=3*13495
+A/tb_architecture=A/TB_ARCHITECTURE 21|./src/TestBench/alu_ent_TB.vhd|13|1*29914
+B/tb_architecture=3*21030
 I=0*5156
-I/tb_architecture=I/TB_ARCHITECTURE 0*9150
+I/tb_architecture=I/TB_ARCHITECTURE 0*12041
 M=11|0|v147|1524875032900|./src/TestBench/alu_ent_TB.vhd|0*4812*0x720a6cea1c1a297a7cd0bf876a47b0fa85a8d30c|0*5068*0x7bd7e13dc0415552f89596087806a8cf
-M/tb_architecture=M/TB_ARCHITECTURE 21|0|v147|1524934626534|./src/TestBench/alu_ent_TB.vhd|0*8353*0x3a793da73c1184a47dd9eb7e828ab1572b54ae7e|0*9043*0x7bd7e13dc0415552f89596087806a8cf
+M/tb_architecture=M/TB_ARCHITECTURE 21|0|v147|1525076459436|./src/TestBench/alu_ent_TB.vhd|0*11242*0x932a936224b4adb0fd6477271f97685c58a93f29|0*11934*0x7bd7e13dc0415552f89596087806a8cf
 R=./src/TestBench/alu_ent_TB.vhd|10
 
 [mypackage]
@@ -25,19 +25,19 @@ M=3|0|v147|1524871826913|./src/mypackage.vhd|0*463*0xa835e94c009698d4cd9bd31a9c6
 R=./src/mypackage.vhd|4
 
 [testbench_for_alu_ent]
-E=1*21108
+E=1*32363
 I=0*9888
-M=2|0|v147|1524934626537|./src/TestBench/alu_ent_TB.vhd|0*9510*0x28570c3991bdcd99e9c20296d881e163f59a6dc7|0*9776*0x7bd7e13dc0415552f89596087806a8cf
-R=./src/testbench/alu_ent_tb.vhd|61
+M=2|0|v147|1525076459448|./src/TestBench/alu_ent_TB.vhd|0*9510*0x28570c3991bdcd99e9c20296d881e163f59a6dc7|0*9776*0x7bd7e13dc0415552f89596087806a8cf
+R=./src/TestBench/alu_ent_TB.vhd|61
 
 [~A]
-ModifyID=62
+ModifyID=89
 Version=73
 
 [~MFT]
-0=65|0ALU.mgf|10946|5862
-1=21|1ALU.mgf|21108|15878
-3=11|3ALU.mgf|13495|7547
+0=77|0ALU.mgf|13409|8323
+1=35|1ALU.mgf|32363|27072
+3=19|3ALU.mgf|21030|15094
 
 [~U]
 alu_ent=11|0*2528|

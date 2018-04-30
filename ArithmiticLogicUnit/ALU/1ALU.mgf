@@ -363,7 +363,7 @@ I 000049 55 2352          1524934622786 alu_arch
 	(_model . alu_arch 1 -1
 	)
 )
-V 000049 55 2352          1524934626443 alu_arch
+I 000049 55 2352          1524934626443 alu_arch
 (_unit VHDL (alu_ent 0 29 (alu_arch 0 40 ))
 	(_version v147)
 	(_time 1524934626444 2018.04.28 18:57:06)
@@ -408,7 +408,7 @@ V 000049 55 2352          1524934626443 alu_arch
 	(_model . alu_arch 1 -1
 	)
 )
-V 000056 55 2393          1524934626532 TB_ARCHITECTURE
+I 000056 55 2393          1524934626532 TB_ARCHITECTURE
 (_unit VHDL (alu_ent_tb 0 10 (tb_architecture 0 13 ))
 	(_version v147)
 	(_time 1524934626533 2018.04.28 18:57:06)
@@ -466,7 +466,7 @@ V 000056 55 2393          1524934626532 TB_ARCHITECTURE
 	(_model . TB_ARCHITECTURE 1 -1
 	)
 )
-V 000040 55 442 0 testbench_for_alu_ent
+I 000040 55 442 0 testbench_for_alu_ent
 (_configuration VHDL (testbench_for_alu_ent 0 61 (alu_ent_tb))
 	(_version v147)
 	(_time 1524934626536 2018.04.28 18:57:06)
@@ -474,6 +474,271 @@ V 000040 55 442 0 testbench_for_alu_ent
 	(_use (std(standard))(.(mypackage))(ieee(numeric_std))(ieee(std_logic_1164))(ieee(std_logic_unsigned)))
 	(_parameters dbg)
 	(_code 7e2b7c7f2e2829697a7f6c242a)
+	(_architecture TB_ARCHITECTURE
+		(_instantiation UUT
+			(_entity . alu_ent alu_arch
+			)
+		)
+	)
+)
+I 000056 55 2393          1525076125578 TB_ARCHITECTURE
+(_unit VHDL (alu_ent_tb 0 10 (tb_architecture 0 13 ))
+	(_version v147)
+	(_time 1525076125579 2018.04.30 10:15:25)
+	(_source (\./src/TestBench/alu_ent_TB.vhd\))
+	(_use (std(standard))(.(mypackage))(ieee(numeric_std))(ieee(std_logic_1164))(ieee(std_logic_unsigned)))
+	(_parameters dbg)
+	(_code f0f6a2a0a3a6a1e5a5a7e5aaf4)
+	(_entity
+		(_time 1524875032900)
+	)
+	(_component
+		(alu_ent
+			(_object
+				(_port (_internal a ~STD_LOGIC_VECTOR{7~downto~0}~13 0 17 (_entity (_in ))))
+				(_port (_internal b ~STD_LOGIC_VECTOR{7~downto~0}~132 0 18 (_entity (_in ))))
+				(_port (_internal sel ~extalu.mypackage.ops 0 19 (_entity (_in ))))
+				(_port (_internal z ~STD_LOGIC_VECTOR{7~downto~0}~134 0 20 (_entity (_out ))))
+			)
+		)
+	)
+	(_instantiation UUT 0 35 (_component alu_ent )
+		(_port
+			((a)(a))
+			((b)(b))
+			((sel)(sel))
+			((z)(z))
+		)
+		(_use (_entity . alu_ent)
+		)
+	)
+	(_object
+		(_type (_internal ~STD_LOGIC_VECTOR{7~downto~0}~13 0 17 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 7)(i 0))))))
+		(_type (_internal ~STD_LOGIC_VECTOR{7~downto~0}~132 0 18 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 7)(i 0))))))
+		(_type (_internal ~STD_LOGIC_VECTOR{7~downto~0}~134 0 20 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 7)(i 0))))))
+		(_type (_internal ~STD_LOGIC_VECTOR{7~downto~0}~136 0 24 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 7)(i 0))))))
+		(_signal (_internal a ~STD_LOGIC_VECTOR{7~downto~0}~136 0 24 (_architecture (_uni ))))
+		(_signal (_internal b ~STD_LOGIC_VECTOR{7~downto~0}~136 0 25 (_architecture (_uni ))))
+		(_signal (_internal sel ~extalu.mypackage.ops 0 26 (_architecture (_uni ))))
+		(_signal (_internal z ~STD_LOGIC_VECTOR{7~downto~0}~136 0 28 (_architecture (_uni ))))
+		(_process
+			(line__44(_architecture 0 0 44 (_process (_wait_for)(_target(0)(1)(2)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_ULOGIC (ieee std_logic_1164 STD_ULOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+		(_type (_external ~extalu.mypackage.ops (. mypackage ops)))
+	)
+	(_static
+		(33686018 33686274 )
+		(33686018 33751554 )
+	)
+	(_model . TB_ARCHITECTURE 1 -1
+	)
+)
+I 000040 55 442 0 testbench_for_alu_ent
+(_configuration VHDL (testbench_for_alu_ent 0 61 (alu_ent_tb))
+	(_version v147)
+	(_time 1525076125599 2018.04.30 10:15:25)
+	(_source (\./src/TestBench/alu_ent_TB.vhd\))
+	(_use (std(standard))(.(mypackage))(ieee(numeric_std))(ieee(std_logic_1164))(ieee(std_logic_unsigned)))
+	(_parameters dbg)
+	(_code fff8a8afaca9a8e8fbfeeda5ab)
+	(_architecture TB_ARCHITECTURE
+		(_instantiation UUT
+			(_entity . alu_ent alu_arch
+			)
+		)
+	)
+)
+I 000056 55 2393          1525076447346 TB_ARCHITECTURE
+(_unit VHDL (alu_ent_tb 0 10 (tb_architecture 0 13 ))
+	(_version v147)
+	(_time 1525076447347 2018.04.30 10:20:47)
+	(_source (\./src/TestBench/alu_ent_TB.vhd\))
+	(_use (std(standard))(.(mypackage))(ieee(numeric_std))(ieee(std_logic_1164))(ieee(std_logic_unsigned)))
+	(_parameters dbg)
+	(_code d585d187838384c08082c08fd1)
+	(_entity
+		(_time 1524875032900)
+	)
+	(_component
+		(alu_ent
+			(_object
+				(_port (_internal a ~STD_LOGIC_VECTOR{7~downto~0}~13 0 17 (_entity (_in ))))
+				(_port (_internal b ~STD_LOGIC_VECTOR{7~downto~0}~132 0 18 (_entity (_in ))))
+				(_port (_internal sel ~extalu.mypackage.ops 0 19 (_entity (_in ))))
+				(_port (_internal z ~STD_LOGIC_VECTOR{7~downto~0}~134 0 20 (_entity (_out ))))
+			)
+		)
+	)
+	(_instantiation UUT 0 35 (_component alu_ent )
+		(_port
+			((a)(a))
+			((b)(b))
+			((sel)(sel))
+			((z)(z))
+		)
+		(_use (_entity . alu_ent)
+		)
+	)
+	(_object
+		(_type (_internal ~STD_LOGIC_VECTOR{7~downto~0}~13 0 17 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 7)(i 0))))))
+		(_type (_internal ~STD_LOGIC_VECTOR{7~downto~0}~132 0 18 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 7)(i 0))))))
+		(_type (_internal ~STD_LOGIC_VECTOR{7~downto~0}~134 0 20 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 7)(i 0))))))
+		(_type (_internal ~STD_LOGIC_VECTOR{7~downto~0}~136 0 24 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 7)(i 0))))))
+		(_signal (_internal a ~STD_LOGIC_VECTOR{7~downto~0}~136 0 24 (_architecture (_uni ))))
+		(_signal (_internal b ~STD_LOGIC_VECTOR{7~downto~0}~136 0 25 (_architecture (_uni ))))
+		(_signal (_internal sel ~extalu.mypackage.ops 0 26 (_architecture (_uni ))))
+		(_signal (_internal z ~STD_LOGIC_VECTOR{7~downto~0}~136 0 28 (_architecture (_uni ))))
+		(_process
+			(line__44(_architecture 0 0 44 (_process (_wait_for)(_target(0)(1)(2)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_ULOGIC (ieee std_logic_1164 STD_ULOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+		(_type (_external ~extalu.mypackage.ops (. mypackage ops)))
+	)
+	(_static
+		(33686018 33686274 )
+		(33686018 33751554 )
+	)
+	(_model . TB_ARCHITECTURE 1 -1
+	)
+)
+I 000040 55 442 0 testbench_for_alu_ent
+(_configuration VHDL (testbench_for_alu_ent 0 61 (alu_ent_tb))
+	(_version v147)
+	(_time 1525076447364 2018.04.30 10:20:47)
+	(_source (\./src/TestBench/alu_ent_TB.vhd\))
+	(_use (std(standard))(.(mypackage))(ieee(numeric_std))(ieee(std_logic_1164))(ieee(std_logic_unsigned)))
+	(_parameters dbg)
+	(_code e5b4e4b6e5b3b2f2e1e4f7bfb1)
+	(_architecture TB_ARCHITECTURE
+		(_instantiation UUT
+			(_entity . alu_ent alu_arch
+			)
+		)
+	)
+)
+V 000049 55 2413          1525076452841 alu_arch
+(_unit VHDL (alu_ent 0 29 (alu_arch 0 40 ))
+	(_version v147)
+	(_time 1525076452842 2018.04.30 10:20:52)
+	(_source (\./src/alu.vhd\))
+	(_use (.(mypackage))(std(standard))(ieee(std_logic_1164))(ieee(std_logic_unsigned))(ieee(numeric_std)))
+	(_parameters dbg)
+	(_code 51570252030700440406440b55)
+	(_entity
+		(_time 1524874697536)
+	)
+	(_object
+		(_type (_internal ~STD_LOGIC_VECTOR{7~downto~0}~12 0 31 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 7)(i 0))))))
+		(_port (_internal a ~STD_LOGIC_VECTOR{7~downto~0}~12 0 31 (_entity (_in ))))
+		(_type (_internal ~STD_LOGIC_VECTOR{7~downto~0}~122 0 32 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 7)(i 0))))))
+		(_port (_internal b ~STD_LOGIC_VECTOR{7~downto~0}~122 0 32 (_entity (_in ))))
+		(_port (_internal sel ~extalu.mypackage.ops 0 33 (_entity (_in ))))
+		(_type (_internal ~STD_LOGIC_VECTOR{7~downto~0}~124 0 34 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 7)(i 0))))))
+		(_port (_internal z ~STD_LOGIC_VECTOR{7~downto~0}~124 0 34 (_entity (_out ))))
+		(_type (_internal ~BIT_VECTOR{7~downto~0}~13 0 45 (_array ~extSTD.STANDARD.BIT ((_downto (i 7)(i 0))))))
+		(_variable (_internal tmp1 ~BIT_VECTOR{7~downto~0}~13 0 45 (_process 0 )))
+		(_variable (_internal tmp2 ~extSTD.STANDARD.INTEGER 0 46 (_process 0 )))
+		(_type (_internal ~BIT_VECTOR{7~downto~0}~132 0 47 (_array ~extSTD.STANDARD.BIT ((_downto (i 7)(i 0))))))
+		(_variable (_internal res ~BIT_VECTOR{7~downto~0}~132 0 47 (_process 0 )))
+		(_process
+			(line__44(_architecture 0 0 44 (_process (_simple)(_target(3))(_sensitivity(0)(1)(2)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_ULOGIC (ieee std_logic_1164 STD_ULOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+		(_type (_external ~extalu.mypackage.ops (. mypackage ops)))
+		(_type (_external ~extSTD.STANDARD.BIT (std STANDARD BIT)))
+		(_type (_external ~extSTD.STANDARD.BIT_VECTOR (std STANDARD BIT_VECTOR)))
+		(_type (_external ~extSTD.STANDARD.INTEGER (std STANDARD INTEGER)))
+		(_type (_external ~extieee.NUMERIC_STD.SIGNED (ieee NUMERIC_STD SIGNED)))
+	)
+	(_static
+		(33686018 50463234 )
+		(33686018 33686018 )
+	)
+	(_model . alu_arch 1 -1
+	)
+)
+V 000056 55 2393          1525076459434 TB_ARCHITECTURE
+(_unit VHDL (alu_ent_tb 0 10 (tb_architecture 0 13 ))
+	(_version v147)
+	(_time 1525076459435 2018.04.30 10:20:59)
+	(_source (\./src/TestBench/alu_ent_TB.vhd\))
+	(_use (std(standard))(.(mypackage))(ieee(numeric_std))(ieee(std_logic_1164))(ieee(std_logic_unsigned)))
+	(_parameters dbg)
+	(_code 13171714434542064644064917)
+	(_entity
+		(_time 1524875032900)
+	)
+	(_component
+		(alu_ent
+			(_object
+				(_port (_internal a ~STD_LOGIC_VECTOR{7~downto~0}~13 0 17 (_entity (_in ))))
+				(_port (_internal b ~STD_LOGIC_VECTOR{7~downto~0}~132 0 18 (_entity (_in ))))
+				(_port (_internal sel ~extalu.mypackage.ops 0 19 (_entity (_in ))))
+				(_port (_internal z ~STD_LOGIC_VECTOR{7~downto~0}~134 0 20 (_entity (_out ))))
+			)
+		)
+	)
+	(_instantiation UUT 0 35 (_component alu_ent )
+		(_port
+			((a)(a))
+			((b)(b))
+			((sel)(sel))
+			((z)(z))
+		)
+		(_use (_entity . alu_ent)
+		)
+	)
+	(_object
+		(_type (_internal ~STD_LOGIC_VECTOR{7~downto~0}~13 0 17 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 7)(i 0))))))
+		(_type (_internal ~STD_LOGIC_VECTOR{7~downto~0}~132 0 18 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 7)(i 0))))))
+		(_type (_internal ~STD_LOGIC_VECTOR{7~downto~0}~134 0 20 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 7)(i 0))))))
+		(_type (_internal ~STD_LOGIC_VECTOR{7~downto~0}~136 0 24 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 7)(i 0))))))
+		(_signal (_internal a ~STD_LOGIC_VECTOR{7~downto~0}~136 0 24 (_architecture (_uni ))))
+		(_signal (_internal b ~STD_LOGIC_VECTOR{7~downto~0}~136 0 25 (_architecture (_uni ))))
+		(_signal (_internal sel ~extalu.mypackage.ops 0 26 (_architecture (_uni ))))
+		(_signal (_internal z ~STD_LOGIC_VECTOR{7~downto~0}~136 0 28 (_architecture (_uni ))))
+		(_process
+			(line__44(_architecture 0 0 44 (_process (_wait_for)(_target(0)(1)(2)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_ULOGIC (ieee std_logic_1164 STD_ULOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+		(_type (_external ~extalu.mypackage.ops (. mypackage ops)))
+	)
+	(_static
+		(33686018 33686274 )
+		(33686018 33751554 )
+	)
+	(_model . TB_ARCHITECTURE 1 -1
+	)
+)
+V 000040 55 442 0 testbench_for_alu_ent
+(_configuration VHDL (testbench_for_alu_ent 0 61 (alu_ent_tb))
+	(_version v147)
+	(_time 1525076459447 2018.04.30 10:20:59)
+	(_source (\./src/TestBench/alu_ent_TB.vhd\))
+	(_use (std(standard))(.(mypackage))(ieee(numeric_std))(ieee(std_logic_1164))(ieee(std_logic_unsigned)))
+	(_parameters dbg)
+	(_code 13161214154544041712014947)
 	(_architecture TB_ARCHITECTURE
 		(_instantiation UUT
 			(_entity . alu_ent alu_arch
